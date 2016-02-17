@@ -14,7 +14,7 @@
 		88836FEB1C7310FD004CA067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88836FE91C7310FD004CA067 /* Main.storyboard */; };
 		88836FED1C7310FD004CA067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88836FEC1C7310FD004CA067 /* Assets.xcassets */; };
 		88836FF01C7310FD004CA067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88836FEE1C7310FD004CA067 /* LaunchScreen.storyboard */; };
-		88836FF91C73128C004CA067 /* JXLWaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88836FF81C73128C004CA067 /* JXLWaterLayout.m */; };
+		88836FFD1C7460AF004CA067 /* JXLWaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88836FFC1C7460AF004CA067 /* JXLWaterLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +29,8 @@
 		88836FEC1C7310FD004CA067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88836FEF1C7310FD004CA067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88836FF11C7310FD004CA067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88836FF71C73128C004CA067 /* JXLWaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLWaterLayout.h; sourceTree = "<group>"; };
-		88836FF81C73128C004CA067 /* JXLWaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLWaterLayout.m; sourceTree = "<group>"; };
+		88836FFB1C7460AF004CA067 /* JXLWaterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXLWaterLayout.h; sourceTree = "<group>"; };
+		88836FFC1C7460AF004CA067 /* JXLWaterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXLWaterLayout.m; sourceTree = "<group>"; };
 		B2FC7E3405F694261EF2EB71 /* Pods-自定义瀑布流.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义瀑布流.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自定义瀑布流/Pods-自定义瀑布流.debug.xcconfig"; sourceTree = "<group>"; };
 		FACE65C64B758AF706789B6B /* libPods-自定义瀑布流.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自定义瀑布流.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -76,12 +76,11 @@
 		88836FDF1C7310FD004CA067 /* 自定义瀑布流 */ = {
 			isa = PBXGroup;
 			children = (
+				88836FFA1C7460AF004CA067 /* JXLWaterLayout */,
 				88836FE31C7310FD004CA067 /* AppDelegate.h */,
 				88836FE41C7310FD004CA067 /* AppDelegate.m */,
 				88836FE61C7310FD004CA067 /* ViewController.h */,
 				88836FE71C7310FD004CA067 /* ViewController.m */,
-				88836FF71C73128C004CA067 /* JXLWaterLayout.h */,
-				88836FF81C73128C004CA067 /* JXLWaterLayout.m */,
 				88836FE91C7310FD004CA067 /* Main.storyboard */,
 				88836FEC1C7310FD004CA067 /* Assets.xcassets */,
 				88836FEE1C7310FD004CA067 /* LaunchScreen.storyboard */,
@@ -97,6 +96,15 @@
 				88836FE11C7310FD004CA067 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88836FFA1C7460AF004CA067 /* JXLWaterLayout */ = {
+			isa = PBXGroup;
+			children = (
+				88836FFB1C7460AF004CA067 /* JXLWaterLayout.h */,
+				88836FFC1C7460AF004CA067 /* JXLWaterLayout.m */,
+			);
+			path = JXLWaterLayout;
 			sourceTree = "<group>";
 		};
 		BA37B60302DCA0C53887D0CD /* Pods */ = {
@@ -231,7 +239,7 @@
 			files = (
 				88836FE81C7310FD004CA067 /* ViewController.m in Sources */,
 				88836FE51C7310FD004CA067 /* AppDelegate.m in Sources */,
-				88836FF91C73128C004CA067 /* JXLWaterLayout.m in Sources */,
+				88836FFD1C7460AF004CA067 /* JXLWaterLayout.m in Sources */,
 				88836FE21C7310FD004CA067 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
