@@ -10,9 +10,11 @@
 1.创建布局文件，初始化UICollectionView的时候传入布局文件。   
 2.实现'UICollectionView'以下代理方法即可。
 
+```objc
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {    
-//返回item的尺寸。    
+    //返回item的尺寸。    
 }    
+```
 
 ##To Do
 - 支持横向瀑布流。
