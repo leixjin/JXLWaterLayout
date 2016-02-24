@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JXLWaterLayout"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "一款毫无入侵性的瀑布流布局文件"
 
   # This description is used to generate tags and improve search results.
