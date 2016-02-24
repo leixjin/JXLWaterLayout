@@ -80,7 +80,11 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/xiaolei0808/JXLWaterLayout.git", :commit => "f420a6c9500eb34574411d49f1f8e2c85078ce04" }
+  s.source       = {
+    :git => "https://github.com/xiaolei0808/JXLWaterLayout.git",
+    :commit => "f420a6c9500eb34574411d49f1f8e2c85078ce04", 
+    :tag => s.version.to_s
+  }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
